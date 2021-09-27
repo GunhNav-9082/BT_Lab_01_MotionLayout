@@ -3,11 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Data/Study/Android + TKPM/Lab_01_MotionLayout-master/app/src/main/res/layout/activity_main.xml" value="0.1884498480243161" />
-        <entry key="..\:/Data/Study/Android + TKPM/Lab_01_MotionLayout-master/app/src/main/res/layout/activity_main2.xml" value="0.1884498480243161" />
-        <entry key="..\:/Download/Lab_01_MotionLayout-master/app/src/main/res/layout/activity_main.xml" value="0.1884498480243161" />
-        <entry key="..\:/Download/Lab_01_MotionLayout-master/app/src/main/res/layout/activity_main2.xml" value="0.27717391304347827" />
-        <entry key="..\:/StudyHouse/HK1_Nam4/Lab_01_MotionLayout/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Data/Study/Android + TKPM/NangCao/AMD_MotionLayout-Lab-01-master/app/src/main/res/layout/activity_ex3.xml" value="0.1884498480243161" />
+        <entry key="..\:/Data/Study/Android + TKPM/NangCao/AMD_MotionLayout-Lab-01-master/app/src/main/res/layout/activity_main.xml" value="0.21927083333333333" />
+        <entry key="..\:/Data/Study/Android + TKPM/NangCao/AMD_MotionLayout-Lab-01-master/app/src/main/res/layout/activity_main2.xml" value="0.3491847826086957" />
+        <entry key="..\:/Data/Study/Android + TKPM/NangCao/AMD_MotionLayout-Lab-01-master/app/src/main/res/layout/activity_main3.xml" value="0.3491847826086957" />
+        <entry key="..\:/University/4st/Advanced Mobile Development/MotionLayout_Lab01/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14479166666666668" />
+        <entry key="..\:/University/4st/Advanced Mobile Development/MotionLayout_Lab01/app/src/main/res/layout/activity_ex1.xml" value="0.264" />
+        <entry key="..\:/University/4st/Advanced Mobile Development/MotionLayout_Lab01/app/src/main/res/layout/activity_ex2.xml" value="0.264" />
+        <entry key="..\:/University/4st/Advanced Mobile Development/MotionLayout_Lab01/app/src/main/res/layout/activity_ex3.xml" value="0.2" />
+        <entry key="..\:/University/4st/Advanced Mobile Development/MotionLayout_Lab01/app/src/main/res/layout/taylermusic.xml" value="0.264" />
+        <entry key="..\:/University/4st/Advanced Mobile Development/MotionLayout_Lab01/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14479166666666668" />
       </map>
     </option>
   </component>

@@ -4,11 +4,28 @@
     xmlns:motion="http://schemas.android.com/apk/res-auto">
 
     <Transition
-        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetEnd="@+id/next1"
         motion:constraintSetStart="@id/start"
         motion:duration="1000">
        <KeyFrameSet>
+           <KeyPosition />
+           <KeyPosition
+               motion:percentX="0.9"
+               motion:percentY="0.5" />
+           <KeyPosition
+               motion:motionTarget="@+id/imageView2"
+               motion:keyPositionType="parentRelative"
+               motion:percentX="0.9"
+               motion:percentY="0.5" />
+           <KeyPosition />
+           <KeyPosition
+               motion:motionTarget="@+id/imageView2"
+               motion:framePosition="4"
+               motion:keyPositionType="parentRelative"
+               motion:percentX="0.9"
+               motion:percentY="0.5" />
        </KeyFrameSet>
+        <OnClick motion:targetId="@+id/btnAdd1" />
     </Transition>
 
     <ConstraintSet android:id="@+id/start">
@@ -16,4 +33,54 @@
 
     <ConstraintSet android:id="@+id/end">
     </ConstraintSet>
+    <ConstraintSet android:id="@+id/next1" >
+        <Constraint
+            android:layout_height="wrap_content"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="512dp"
+            android:layout_width="wrap_content"
+            motion:layout_constraintTop_toBottomOf="@+id/textView"
+            android:id="@+id/imageView"
+            android:layout_marginStart="184dp"
+            android:layout_marginLeft="184dp" />
+        <Constraint
+            android:id="@+id/btnAdd1"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="104dp"
+            motion:layout_constraintTop_toBottomOf="@+id/textView"
+            motion:layout_constraintHorizontal_bias="0.501" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@+id/next2" >
+        <Constraint
+            android:id="@+id/imageView"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintTop_toBottomOf="@+id/textView"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="500dp"
+            android:alpha="0"
+            motion:layout_constraintHorizontal_bias="0.519" />
+        <Constraint
+            android:id="@+id/imageView2"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintTop_toBottomOf="@+id/btnAdd1"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="356dp"
+            android:alpha="0" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@+id/next3" />
+    <Transition
+        motion:constraintSetStart="@+id/next1"
+        motion:constraintSetEnd="@+id/next2" >
+        <OnClick motion:targetId="@id/btnAdd2" />
+    </Transition>
+    <Transition
+        motion:constraintSetStart="@+id/next2"
+        motion:constraintSetEnd="@+id/next3" />
 </MotionScene>
